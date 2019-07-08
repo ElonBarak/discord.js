@@ -15,7 +15,7 @@ class Role {
      */
     Object.defineProperty(this, 'client', { value: guild.client });
 
-    /**
+    /*
      * The guild that the role belongs to
      * @type {Guild}
      */
@@ -44,7 +44,7 @@ class Role {
     this.name = data.name;
 
     /**
-     * The base 10 color of the role
+     * hey
      * @type {number}
      */
     this.color = data.color;
